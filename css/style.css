@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Margarine&family=Roboto:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+
+}
+body
+{
+background-color: antiquewhite;
+}
+:root
+{
+    
+    --ff-primary:"Roboto",sans-serif;
+    --ff-secondary:"Inter",sans-serif;
+    --ff-design:"Statisfy", cursive;
+    --ff-brand:"Margarine",sans-serif ;
+}
+.container
+{  
+    margin: 30px;
+    padding:30px;
+    display:flex;
+    flex-direction: row-reverse;
+    align-content: flex-end;
+}   
+nav
+{
+padding: 13px;
+}
+.imglogo 
+{
+
+display:inline;
+margin-top: 20px;
+    
+}
+.head,.imglogo,.nav-link
+{
+    display: inline;
+}
+nav-link
+{
+color: black;
+padding: 20px;
+
+}
+.head,.nav-link:hover
+{
+
+  color: black;
+}
+.head,.nav-link,ul,li{
+    display: inline;
+}
+ul{
+    margin-left: 55%;
+}
+li{
+    color: black;
+}
+.nav-link:hover
+{
+
+  color: black;
+}
+span,.body-content,p
+{
+    
+    padding: 60px;
+    margin-right: 56ch;
+}
+
+.body-content
+ {
+    position: relative;
+    text-align: left;
+    text-indent:30px;
+}
+.detail
+{
+   
+    margin-right: 65ch;
+    text-indent: 30ch;
+    text-align: left;
+    margin-left: 40px;
+}
+.photo
+{ 
+display:flex;
+flex-direction: row-reverse;
+text-wrap: wrap;
+
+}
+/*
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+*/ 
