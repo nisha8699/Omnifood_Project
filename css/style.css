@@ -1,21 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Margarine&family=Roboto:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Lexend:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     margin:0px;
     padding:0px;
 
 }
-body
+.slide1
 {
+
 background-color: antiquewhite;
+
 }
-:root
-{
-    
-    --ff-primary:"Roboto",sans-serif;
-    --ff-secondary:"Inter",sans-serif;
-    --ff-design:"Statisfy", cursive;
-    --ff-brand:"Margarine",sans-serif ;
-}
+
 .container
 {  
     margin: 30px;
@@ -39,7 +34,7 @@ margin-top: 20px;
 {
     display: inline;
 }
-nav-link
+.nav-link
 {
 color: black;
 padding: 20px;
@@ -52,38 +47,47 @@ padding: 20px;
 }
 .head,.nav-link,ul,li{
     display: inline;
+    
 }
 ul{
-    margin-left: 55%;
+    margin-left: 35%; 
+  
 }
-li{
-    color: black;
-}
-.nav-link:hover
+li
 {
-
-  color: black;
+     font-weight: bold;
+    text-transform: capitalize;
+     color: black;
 }
-span,.body-content,p
+li:hover
 {
-    
-    padding: 60px;
-    margin-right: 56ch;
+   
+    background-color:orangered;
+    color:white;
 }
 
 .body-content
- {
-    position: relative;
+{
+    padding-top:40px ;
     text-align: left;
-    text-indent:30px;
+    text-wrap: 30ch;
+    text-indent: 20px;
+    text-indent: 1.5em;
+
 }
+.heading
+{
+     margin-right:40ch;
+    font-size:40px;
+    font-weight: 40;
+}
+
 .detail
 {
-   
-    margin-right: 65ch;
-    text-indent: 30ch;
-    text-align: left;
-    margin-left: 40px;
+margin-right: 40ch;
+font-size:20px;
+ font-weight: 20;
+ 
 }
 .photo
 { 
@@ -92,9 +96,59 @@ flex-direction: row-reverse;
 text-wrap: wrap;
 
 }
-/*
-    position: relative;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-*/ 
+.person
+{
+border-radius:50%;
+    
+}
+.views
+{
+color: orangered;
+}
+.dif
+{
+    color: black;
+}
+.one
+{
+padding-left:40px;
+
+}
+.btn
+{
+     font: size 100px;
+     font-weight: 100;
+     text-transform: capitalize;
+     color: black;
+
+}
+.btn:hover
+{
+background-color: orangered;
+}
+.slide2
+{
+text-align: center;
+}
+.title
+{
+font-size: 20;
+}
+.comlogo
+{
+    display: inline;
+    font-size: 100;
+}
+.phone
+{
+    text-align: left;
+ font-size: 50px;
+    font-weight: 50;
+}
+.make
+{ 
+    text-align: left;
+    font-size:100px;
+    font-weight: 100;
+    
+}
