@@ -3,147 +3,166 @@
     margin:0px;
     padding:0px;
 }
-/* ----color-----*/
+ /*----color-----*/
 body{
-    font-family: Arial, Helvetica, sans-serif;
-    flex-direction: column;
+ font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    position:relative;
+    height: 100vh;
 }
 .slide1
 {
-
-background-color: antiquewhite;
-}
-
-nav
+    background-color: antiquewhite;
+   
+ }
+.imglogo
 {
-padding: 20px;
-}
-.imglogo 
-{
-
-display:inline;
-margin-top: 20px;
-    
+    margin-top: 20px;
 }
 .head,.imglogo,.nav-link
 {
+
     display: inline;
+    margin-top: 20px;
+    
 }
 .nav-link
 {
-color: black;
-padding: 20px;
-}
-.head,.nav-link:hover
-{
-  cursor: pointer;
-  border-width: 10px;
-  border-color:lightsalmon;
-
+  padding: 20px;
+  text-transform: capitalize;
+  font-size:50px;
+  font-weight: 50;
 }
 .head,.nav-link,ul,li
 {
     display: inline;
-     border-color:solid;
-  border-width: 10px;
+    border-width: 10px;
 }
 ul
 {
+margin-left: 45%;
+}
+a
+{
+      color:black;
+      text-decoration: none;
+}
+
+.nav-link1
+{    
     
-    margin-left: 35%; 
-  
+     background-color: #f77f00;
+     color:black;
+     font-size: 18px;
+     font-weight: 47;
+      border-radius: 13%;
+      padding: 1rem;
+      padding: 5px 10px;
+     
 }
-li
+.nav-link1:hover
 {
-    font-weight:bold;
-    text-transform: capitalize;
-    color: black;
-}
-li:hover
-{
-
+    border-width: 10px;
+    color:lightsalmon;
     border-style: solid;
-    background-color:orangered;
-    color:white;
+    cursor:pointer;
+    padding: 5px 10px;
 }
-
+.nav-link2
+{   
+     color:black;
+     font-size:18px;
+     font-weight: 47;
+     padding: 5px 10px;
+}
+.nav-link2:hover
+{
+border-width: 10px;
+border-style: solid;
+color: rgb(221, 141, 110);
+cursor:pointer;
+}
+.imglogo:hover
+{
+    border-width: 10px;
+border-style: solid;
+color: rgb(221, 141, 110);
+cursor:pointer;
+}
 .body-content
 {
-    
+    text-align: left;
     padding-top:60px ;
     text-wrap: 30ch;
     text-indent: 1.5em;
     padding:60px;
     padding-left: 35px;
-
+  
 }
 .heading
 {
      
-     margin-right:50ch;
-    font-size:30px;
-    font-weight: 30;
-    padding:60px;
-    height: 30px;
+     margin-right:27ch;
+     text-indent:0;
+    font-size:48px;
+    font-weight: bold;
+    padding: 55px;
+    padding-top:30px ;
+    padding-left:10px;
+    height: 20px;
 }
 
 .detail
 {
 
-margin-right: 62ch;
-font-size:20px;
+margin-right: 42ch;
+font-size:23px;
+text-indent:0;
 font-weight: 20;
-padding:60px;
+padding:160px;
+padding-left: 10px;
+color: grey;
 }
-
-.photo
-{ 
-display:flex;
-flex-direction: row-reverse;
-text-wrap: wrap;
-padding-right: 30px;
-
-}
-.person
+.hero
 {
-border-radius:50%;
-    
-}
-.views
-{
-color: orangered;
-text-align: center;
 position: absolute;
-
-}
-.process
-{
-    color: black;
+top:100px;
+right:100px;
+transition:translateY(-100%,-100%);
 }
 
 .btn-one
 {
-text-align: left;
-position:relative;
+ 
+display: flex;
+align-content: left;
+justify-content: center;
  color: lightsalmon;
- padding: 20px;
+ padding-left: 20px;
+ align-items: left;
+
 }
 .btn-orange
-{   
-    position:relative;
+{
+     display: inline;
      padding-left:40px;
      font-size:30px;
      font-weight:30;
-     text-transform: capitalize;
-     color: black;
+    background-color: rgb(226, 82, 29);
+     
 }
 .btn-orange:hover
 {
-background-color: orangered;
+    border-width: 10px;
+    border-style: solid;
+    color: rgb(221, 141, 110);
+    cursor:pointer;
+
 }
 .btn-light
 {
-     padding-left:40px;
+     padding-left:15px;
      font-size:30px;
      font-weight:30;
      text-transform: capitalize;
@@ -151,10 +170,32 @@ background-color: orangered;
 }
 .btn-light:hover
 {
-    cursor: pointer;
- border-width: 10px;
- border-color: lightsalmon;
+border-width: 10px;
+border-style: solid;
+color: rgb(221, 141, 110);
+cursor:pointer;
 }
+.views
+{
+color: orangered;
+text-align: center;
+position: relative;
+
+}
+.person
+{
+border-radius:50%;
+    
+}
+h4
+{
+    color: black;
+}
+.person,.views,h4
+{
+display: inline;
+}
+
 
 
 .slide2
@@ -163,13 +204,20 @@ text-align: center;
 }
 .title
 {
-font-size: 20;
+font-size: 10;
+font-weight: 20px;
+margin-top: 10px;
 }
 .comlogo
-{
+{    display: flex;
+    align-items: center;
+    justify-content: space-around;
+     padding-top:10px;
     display: inline;
     margin-right: 20px;
     font-size: 100;
+   
+
 }
 .phone
 {
